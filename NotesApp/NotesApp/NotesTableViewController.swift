@@ -10,7 +10,7 @@ import UIKit
 
 class NotesTableViewController: UITableViewController {
 
-    var noteController = NotesController()
+    var noteController = NoteController()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,14 +26,14 @@ class NotesTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return notes.count
+        return noteController.notes.count
     }
 
 //    The override function below is what calls the array data that is in the varaiable in this view controller.
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
-        let note = notes[indexPath.row]
+        let note = noteController.notes[indexPath.row]
         cell.textLabel?.text = note.title
         return cell
     }

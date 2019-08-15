@@ -8,5 +8,8 @@
 
 import Foundation
 
-var notes: [Note] = []
+class NoteController: UIViewController {
 
+var [Note] = []
+
+}
