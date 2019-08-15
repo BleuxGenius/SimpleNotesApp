@@ -13,6 +13,8 @@
 		AC4FA3052305F05500B6094F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC4FA3032305F05500B6094F /* Main.storyboard */; };
 		AC4FA3072305F05700B6094F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC4FA3062305F05700B6094F /* Assets.xcassets */; };
 		AC4FA30A2305F05700B6094F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC4FA3082305F05700B6094F /* LaunchScreen.storyboard */; };
+		AC7AEB0C2305FC7600740E22 /* Notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7AEB0B2305FC7600740E22 /* Notes.swift */; };
+		AC7AEB0E230600D000740E22 /* NoteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7AEB0D230600D000740E22 /* NoteController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		AC4FA3062305F05700B6094F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC4FA3092305F05700B6094F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC4FA30B2305F05700B6094F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC7AEB0B2305FC7600740E22 /* Notes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notes.swift; sourceTree = "<group>"; };
+		AC7AEB0D230600D000740E22 /* NoteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				AC4FA30B2305F05700B6094F /* Info.plist */,
 				AC3A9CA72305F9D800C2E1A0 /* NotesTableViewController.swift */,
 				AC3A9CA92305FA0C00C2E1A0 /* AddNoteTableViewController.swift */,
+				AC7AEB0B2305FC7600740E22 /* Notes.swift */,
+				AC7AEB0D230600D000740E22 /* NoteController.swift */,
 			);
 			path = NotesApp;
 			sourceTree = "<group>";
@@ -141,6 +147,8 @@
 				AC4FA3002305F05500B6094F /* AppDelegate.swift in Sources */,
 				AC3A9CA82305F9D800C2E1A0 /* NotesTableViewController.swift in Sources */,
 				AC3A9CAA2305FA0C00C2E1A0 /* AddNoteTableViewController.swift in Sources */,
+				AC7AEB0C2305FC7600740E22 /* Notes.swift in Sources */,
+				AC7AEB0E230600D000740E22 /* NoteController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
